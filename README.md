@@ -2,7 +2,7 @@
 JAI SHREE RAM
 
 Slow Worm is a Computer Worm which Multiplies itself and also Destroy the System at the Same time at the Speed which You Can't Imagine.
-website - slowworm.000webhostapp.com
+website.
 
 There are many Modules of Slow Worm which are being made continuously So Stay tunned!
 
