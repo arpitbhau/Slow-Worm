@@ -1,0 +1,61 @@
+<!-- Jai Siya Ram -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Redirecting...</title>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="./website/logo.png" type="image/x-icon">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <style>
+            .floating {
+                animation: floating 3s ease-in-out infinite;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            @keyframes floating {
+                0% { transform: translate(0, 0px); }
+                50% { transform: translate(0, 15px); }
+                100% { transform: translate(0, -0px); }
+            }
+        </style>
+    </head>
+    <body class="bg-[#111111] flex items-center justify-center min-h-screen">
+        <div class="bg-[#1a1a1a] p-5 rounded-3xl shadow-2xl text-center min-w-[500px] mx-auto border-2 border-indigo-500">
+            <img
+            class="rounded-3xl" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDd6b2F1OXE4ZmdyOWF1OWF1dmpxbGx4YnB4NnBxaGx4YnV2eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/LmgHHxtKgDsYrVsEOw/giphy.gif" 
+            alt="loading..." 
+            class="w-40 h-40 mx-auto mb-8 floating"
+            >
+            
+            <br>
+
+            <h1 class="text-6xl font-['Quicksand'] font-bold text-indigo-400 mb-6 glow">
+                Wait a Sec...
+            </h1>
+            <p class="text-gray-200 text-2xl mb-4">
+                Redirecting to <span class="text-indigo-400">Slow Worm</span> website...
+            </p>
+            <p class="text-gray-200 text-lg mb-4">
+                stuck? <span class="text-indigo-400"><a href="https://arpitbhau.github.io/slow-worm/website">Click Here.</a></span>
+            </p>
+        </div>
+
+
+        <script>
+            // Redirecting to the website
+
+            setTimeout(() => {
+                window.location.href = "https://arpitbhau.github.io/slow-worm/website";
+            }, 5000);
+        </script>
+
+
+
+
+
+    </body>
